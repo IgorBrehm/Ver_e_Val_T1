@@ -10,21 +10,15 @@ package main_Package;
  * apenas scores maiores que os já armazenados poderão ser armazenados.
  */
 
-public class GameEntry {
-	/** Constructor to create a game entry */
-	public GameEntry(String n, int s) {}
-	/** Retrieves the name field */
-	public String getName() {
-		return "";
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class GameEntry_Test {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
 	}
-	/** Retrieves the score field */
-	public int getScore() {
-		return 0;
-	}
-	/** Returns a string representation of this entry
-	* Format: (<name>, <score>)
-	*/
-	public String toString() {
-		return "";
-	}
+
 }
